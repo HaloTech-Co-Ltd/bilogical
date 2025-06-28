@@ -5,9 +5,9 @@ the same changes back and forth. The plugin is based on the work of pgoutput.
 
 ## Supported Database
 
-`Halo 1.0.14, 1.0.15 (partial)`  
+`Halo 1.0.14, 1.0.15`  
 `openHalo 1.0`  
-`PostgreSQL 14, 15 (partial)`  
+`PostgreSQL 14, 15`  
 
 ## Options
 
@@ -27,7 +27,7 @@ CREATE TABLE bitest(a INT, b TEXT);
 ```
 The operations (INSERT/DELETE/UPDATE) on bitest in [bilogical1] will copy to  
 [bilogical2] and vice versa. This will cause a cycled loop that version below  
-PostgreSQL 16.  
+PostgreSQL 16. With bilogical, the cycled loop can be prevented.  
 
 ```
 ------------        ------------
