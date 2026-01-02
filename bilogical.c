@@ -5,8 +5,8 @@
  *    changes back and forth, based on pgoutput.
  *
  * 
- * 版权所有 (c) 2019-2025, 易景科技保留所有权利。
- * Copyright (c) 2019-2025, Halo Tech Co.,Ltd. All rights reserved.
+ * 版权所有 (c) 2019-2026, 易景科技保留所有权利。
+ * Copyright (c) 2019-2026, Halo Tech Co.,Ltd. All rights reserved.
  * 
  * 易景科技是Halo Database、Halo Database Management System、羲和数据
  * 库、羲和数据库管理系统（后面简称 Halo ）软件的发明人同时也为知识产权权

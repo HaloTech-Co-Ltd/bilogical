@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------
 #
-# Makefile--
+# Makefile
 #    Makefile for contrib/bilogical
 #
 # 易景科技是Halo Database、Halo Database Management System、羲和数据
