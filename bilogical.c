@@ -1295,7 +1295,7 @@ static void parse_plugin_params(List *options, BilogicalData *data)
 						 errmsg("conflicting or redundant options")));
 			publication_names_given = true;
 
-			if (!SplitIdentifierString(strVal(defel->arg), ',',
+			if (!SplitIdentifierString(pstrdup(strVal(defel->arg)), ',',
 									   &data->publication_names))
 				ereport(ERROR,
 						(errcode(ERRCODE_INVALID_NAME),
